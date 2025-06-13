@@ -562,6 +562,11 @@ footer {
 }
 
 /* Animations */
+.animated {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
